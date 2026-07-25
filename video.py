@@ -1,8 +1,8 @@
-import cv2
+https://github.com/danilmish/Project_Sverk_Zmeyimport cv2
 import numpy as np
 
 # Открываем видеофайл
-video_path = 'rec.mp4'
+video_path = 'red.mp4'
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
@@ -16,11 +16,11 @@ upper_green = np.array([85, 255, 255])
 lower_yellow = np.array([15, 50, 50])
 upper_yellow = np.array([35, 255, 255])
 
-lower_red1 = np.array([0, 50, 50])
+lower_red1 = np.array([0, 30, 30])
 upper_red1 = np.array([10, 255, 255])
 
 
-lower_red2 = np.array([170, 50, 50])
+lower_red2 = np.array([170, 30, 30])
 upper_red2 = np.array([180, 255, 255])
 
 
